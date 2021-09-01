@@ -6,11 +6,29 @@
 .flexbox {
     display: flex;
     justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
 }
 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
 
 li {
-    list-style-type: none;
+    display: inline;
 }
 
+
+@media (max-width: 330px) {
+    
+    .navigation-box {
+        display: block;
+    }
+}
 

@@ -51,6 +51,15 @@ footer ul {
     justify-content: flex-end;
     margin-top: 50px;
     margin-right: 10px;
+    
+}
+
+footer {
+    background-color: #f8e2e2;
+    margin: auto;
+    height: 100%;
+    vertical-align: bottom;
+    line-height: 50px;
 }
 
 

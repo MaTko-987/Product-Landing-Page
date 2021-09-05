@@ -1,6 +1,7 @@
 .container {
 
     text-align: center;
+    margin-top: 200px;
 }
 
 h1 {
@@ -29,11 +30,12 @@ h1 {
 
 }
 
+
+
 a:link {
 
     text-decoration: none;
-    margin-right: 10px;
-    color: black;
+    margin-right: 40px;
     
   }
 
@@ -50,13 +52,18 @@ footer ul {
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
-    margin-right: 10px;
     
+    
+    
+}
+
+footer ul li {
+    margin-right: 10px;
 }
 
 footer {
     background-color: #f8e2e2;
-    margin: auto;
+    margin-bottom: auto;
     height: 100%;
     vertical-align: bottom;
     line-height: 50px;
@@ -68,7 +75,6 @@ footer {
 .navigation-box {
 
     background-color: #f8e2e2;
-    
     
 }
 

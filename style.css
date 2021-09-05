@@ -33,6 +33,7 @@ a:link {
 
     text-decoration: none;
     margin-right: 10px;
+    color: black;
     
   }
 
@@ -42,6 +43,14 @@ ul {
     margin: 0;
     padding: 0;
     
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 10px;
 }
 
 
@@ -54,12 +63,19 @@ ul {
     
 }
 
+#form {
+    margin-top: 100px;
+}
 
 .pricing {
 
     text-align: center;
     display: flex;
     justify-content: space-around;
+}
+
+.card img {
+    padding: 10px;
 }
 
 /* Media queries */
@@ -88,3 +104,4 @@ ul {
     }
 }
 
+/* https://www.pcmag.com/picks/the-best-60-percent-keyboards */

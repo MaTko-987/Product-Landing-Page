@@ -1,5 +1,4 @@
 .container {
-
     text-align: center;
     margin-top: 200px;
 }
@@ -10,41 +9,43 @@ h1 {
 
 
 .flexbox {
-    
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #f8e2e2;
+    background-color: #f8e2e2; /*  https://www.colorhexa.com/f8e2e2 */
     margin: auto; /* sets the margin to automaticly fit the viewport */
     vertical-align: middle;
     line-height: 150px;
-   
 }
 
 .logo-box img {
-
     width: 100%;
     height: auto;
     max-width: 100%;
+}
 
+.features {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.feature1 {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 
 
 a:link {
-
     text-decoration: none;
     margin-right: 40px;
-    
   }
 
 
 ul {
-
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 
 footer ul {
@@ -52,8 +53,6 @@ footer ul {
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
-    
-    
     
 }
 
@@ -69,13 +68,13 @@ footer {
     line-height: 50px;
 }
 
-
+span {
+    font-size: 1.5rem;
+}
 
 
 .navigation-box {
-
-    background-color: #f8e2e2;
-    
+    background-color: #f8e2e2; 
 }
 
 #form {
@@ -83,7 +82,6 @@ footer {
 }
 
 .pricing {
-
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -120,3 +118,20 @@ footer {
 }
 
 /* https://www.pcmag.com/picks/the-best-60-percent-keyboards */
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0.5fr) repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }

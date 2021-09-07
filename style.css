@@ -58,14 +58,16 @@ footer ul {
 
 footer ul li {
     margin-right: 10px;
+    
 }
 
 footer {
     background-color: #f8e2e2;
-    margin-bottom: auto;
+    margin-bottom: -15px;
     height: 100%;
     vertical-align: bottom;
     line-height: 50px;
+    
 }
 
 span {
@@ -157,3 +159,5 @@ span {
             grid-area: 3 / 2 / 4 / 3; 
             text-align: left;
         }
+
+      

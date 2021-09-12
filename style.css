@@ -1,9 +1,20 @@
+* {
+    box-sizing: content-box
+}
+
+
+
 /*----------------------Bootstrap container--------------------------------*/
 
 .container {
     text-align: center;
     margin-top: 200px;
     
+}
+
+.container h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -53,12 +64,13 @@ nav a:hover {
 
 .features {
     margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
-.feature1 {
-    text-align: left;
-    margin-bottom: 20px;
+.features-grid {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 

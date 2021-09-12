@@ -127,24 +127,19 @@ span {
         .div1 { 
             grid-area: 1 / 1 / 2 / 2; 
         }
-
         .div2 { 
             grid-area: 1 / 2 / 2 / 3; 
             text-align: left;
         }
-
         .div3 { 
             grid-area: 2 / 1 / 3 / 2; 
         }
-
         .div4 { grid-area: 2 / 2 / 3 / 3; 
             text-align: left;
         }
-
         .div5 { 
             grid-area: 3 / 1 / 4 / 2; 
         }
-
         .div6 { 
             grid-area: 3 / 2 / 4 / 3; 
             text-align: left;
@@ -155,3 +150,7 @@ span {
             width: 100%    !important;
             height: auto   !important;
           }
+
+        .feather-arrow-up{
+            content: "\e914";
+        }

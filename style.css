@@ -151,6 +151,20 @@ span {
             height: auto   !important;
           }
 
-        .feather-arrow-up{
-            content: "\e914";
-        }
+     .container img {
+        width: 100%;
+        height: auto;
+     }
+
+     .img-container{
+        position: relative;
+        text-align: center;
+        color: black;
+     }
+
+     .centered-text {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }

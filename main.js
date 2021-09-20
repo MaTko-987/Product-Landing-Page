@@ -1,4 +1,17 @@
 
+const email = document.getElementById('email');
+
+function subscribe(){
+
+    if(email == ""){
+        alert('Please write your email here!')
+    } else {
+        return true;
+    }
+
+}
+
+
 var products = {
 
     keyboard1: {

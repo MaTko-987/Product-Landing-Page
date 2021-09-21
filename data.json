@@ -1,4 +1,5 @@
-"products" {
+
+  {
 
     "keyboard1": {
       "name" : "Corsair K65 RGB Mini Gaming Keyboard",
@@ -21,4 +22,5 @@
       "price" : 675
     }
     
-  };
+  }
+  

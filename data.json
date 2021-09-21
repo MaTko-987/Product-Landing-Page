@@ -1,0 +1,24 @@
+"products" {
+
+    "keyboard1": {
+      "name" : "Corsair K65 RGB Mini Gaming Keyboard",
+      "description" : "Greatest properly off ham exercise all.",
+      "image" : "dummy-pdt-b.jpg",
+      "price" : 2034
+    },
+
+    "keyboard2": {
+      "name" : "HyperX Alloy Origins 60 Gaming Keyboard",
+      "description" : "Unsatiable its possession nor off.",
+      "image" : "dummy-pdt-b.jpg",
+      "price" : 1247
+    },
+
+    "keyboard3": {
+      "name" : "Fnatic Streak65 Gaming Keyboard",
+      "desc" : "All difficulty unreserved the solicitude.",
+      "image" : "dummy-pdt-a.jpg",
+      "price" : 675
+    }
+    
+  };

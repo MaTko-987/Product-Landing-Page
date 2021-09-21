@@ -6,7 +6,7 @@ function subscribe(){
     if(email.value == ""){
         alert('Please write your email here!')
     } else {
-        return true;
+        alert('Thank you for your subscription!');
     }
 
 }

@@ -48,3 +48,8 @@ var data = {
 }
 
 var json = JSON.parse(data);
+
+console.log(json);
+
+// https://mkyong.com/javascript/how-to-access-json-object-in-javascript/
+//how to acces JSON with JS

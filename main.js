@@ -20,7 +20,7 @@ function addToCart1(){
 
 // ------------------Data Access----------------------------------------//
 
-var data = { 
+const data = { 
 
     "keyboard1": {
       "name" : "Corsair K65 RGB Mini Gaming Keyboard",
@@ -43,13 +43,12 @@ var data = {
       "price" : 675
     }
     
-  
 
 }
 
-var json = JSON.parse(data);
+const json = JSON.parse(data);
 
-console.log(json);
+
 
 // https://mkyong.com/javascript/how-to-access-json-object-in-javascript/
 //how to acces JSON with JS

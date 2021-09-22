@@ -85,6 +85,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #1b2a44;
     border: 1px solid #1b2a44;
+   
 }
 
 /*---------------------------Features container--------------------------*/

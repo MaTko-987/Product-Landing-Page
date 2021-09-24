@@ -23,6 +23,12 @@ h1 {
     
 }
 
+.content{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
 /*--------------------------Navigation bar-------------------------*/
 
 .flexbox {
@@ -163,6 +169,8 @@ span {
         display: block;
     }
 }
+
+
 
 @media (max-width: 885px) {
     

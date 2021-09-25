@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box
+    box-sizing: border-box
 }
 
 
@@ -88,6 +88,11 @@ input[type=email] {
     border: 2px solid black;
     border-radius: 3px;
     
+}
+
+#email {
+    max-width: 600px;
+    width: 100%;
 }
 
 

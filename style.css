@@ -90,9 +90,11 @@ input[type=email] {
     
 }
 
-#email {
+#email { 
+    /* responsive email input*/
     max-width: 600px;
     width: 100%;
+    
 }
 
 

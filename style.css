@@ -87,6 +87,8 @@ input[type=email] {
     width: auto;
     border: 2px solid black;
     border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 

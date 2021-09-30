@@ -32,16 +32,16 @@ h1 {
     margin: auto;
     text-align: center;
 
-    font-family: 'Gemunu Libre', sans-serif;
-    font-weight:500;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
 }
 
 .content h1 {
     margin-top: 50px;
     margin-bottom: 50px;
 
-    font-family: 'Gemunu Libre', sans-serif;
-    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
 }
 
 .content img {
@@ -79,14 +79,14 @@ nav a {
     
     font-size: 22px;
 
-    font-family: 'Gemunu Libre', sans-serif;
-    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
 }
 
 nav a:hover {
     color: black;
     text-decoration: none;
-    font-weight: bold;
+    
    
 
 }

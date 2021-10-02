@@ -150,6 +150,8 @@ footer {
     vertical-align: bottom;
     line-height: 50px;
     cursor: pointer;
+    font-family:  'Titillium Web', sans-serif; 
+    font-weight: 400;
 }
 
 span {

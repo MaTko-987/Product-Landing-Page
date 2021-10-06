@@ -150,8 +150,8 @@ footer {
     vertical-align: bottom;
     line-height: 50px;
     cursor: pointer;
-    font-family:  'Titillium Web', sans-serif; 
-    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif; 
+    font-weight: 600;
 }
 
 span {
@@ -186,6 +186,12 @@ span {
 @media (max-width: 330px) {
     
     .navigation-box {
+        display: block;
+    }
+}
+
+@media (max-width: 400px){
+    .flexbox {
         display: block;
     }
 }
